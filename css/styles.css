@@ -1,10 +1,17 @@
+/* Объявление css-переменных */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
 /* Свойства всей страницы */
 body {
   position: relative;
   width: 1600px;
   height: 2349px;
   background-color: #ffffff;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 /* Сброс всех точек возле элементов списка */
@@ -12,6 +19,54 @@ ul {
   list-style: none;
 }
 
+/* Логотип (текст) */
 .logo {
   color: #000000;
+}
+
+/* Навигация по сайту */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Навигация по авторизации */
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Настройка свойств блока героя */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* Настройка свойств секций */
+.section {
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Настройка секции "Особенности" */
+.features {
+  color: var(--primary-text-color);
+}
+
+.features .features-title {
+  color: var(--title-text-color);
 }
