@@ -1,0 +1,17 @@
+/* Свойства всей страницы */
+body {
+  position: relative;
+  width: 1600px;
+  height: 2349px;
+  background-color: #ffffff;
+  color: #757575;
+}
+
+/* Сброс всех точек возле элементов списка */
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
