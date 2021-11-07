@@ -11,17 +11,13 @@
 
 /* Свойства всей страницы */
 body {
-  font-family: Roboto, sans-serif;
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-}
 
-header {
-  font-style: normal;
-  font-weight: 500;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  font-weight: 400;
+  letter-spacing: 0.03em;
 }
 
 /* Сброс всех точек возле элементов списка */
@@ -32,13 +28,13 @@ ul {
 /* ШАПКА */
 /* Логотип (текст) */
 .logo-head {
-  font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
   color: var(--primary-black-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 .logo-accent {
@@ -48,6 +44,11 @@ ul {
 /* Навигация по сайту */
 .site-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link.current {
@@ -60,12 +61,17 @@ ul {
 }
 
 /* Навигация по авторизации */
-.auth-nav .link {
+.contact-nav .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.contact-nav .link:hover,
+.contact-nav .link:focus {
   color: var(--accent-color);
 }
 
@@ -77,12 +83,24 @@ ul {
 
 .hero-title {
   color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Настройка отображения кнопок */
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 .button:hover,
@@ -94,6 +112,10 @@ ul {
 .radio-button {
   color: var(--title-text-color);
   background-color: var(--primary-button-bg-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 .radio-button:hover,
@@ -105,10 +127,17 @@ ul {
 /* Настройка свойств секций */
 .section {
   color: var(--primary-text-color);
+
+  line-height: 1.71;
 }
 
 .section-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* Настройка секции "Особенности" */
@@ -118,47 +147,77 @@ ul {
 
 .features .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* Настройка секции "Наша команда" */
 .our-team {
   color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .our-team .title {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 /* ПОДВАЛ */
 
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+
 .logo-foot {
-  font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
   color: var(--primary-white-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 .adress .link {
   color: var(--primary-white-color);
+
+  font-style: inherit;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.adress {
+  font-style: normal;
 }
 
 .adress .link-opacity {
   color: rgba(255, 255, 255, 0.6);
+
+  line-height: 1.71;
+  text-decoration: none;
 }
 
 /* Контент вкладки "Портфолио" */
 
-footer {
-  background-color: var(--secondary-bg-color);
-}
-
 .filter {
   color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 .filter .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
