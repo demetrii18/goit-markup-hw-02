@@ -11,8 +11,17 @@
 
 /* Свойства всей страницы */
 body {
+  font-family: Roboto, sans-serif;
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+}
+
+header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 /* Сброс всех точек возле элементов списка */
@@ -23,6 +32,12 @@ ul {
 /* ШАПКА */
 /* Логотип (текст) */
 .logo-head {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: var(--primary-black-color);
 }
 
@@ -70,13 +85,19 @@ ul {
   background-color: var(--accent-color);
 }
 
-.button.primary {
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
+
+.radio-button {
   color: var(--title-text-color);
   background-color: var(--primary-button-bg-color);
 }
 
-.button.primary:hover,
-.button.primary:focus {
+.radio-button:hover,
+.radio-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -111,6 +132,12 @@ ul {
 /* ПОДВАЛ */
 
 .logo-foot {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 
